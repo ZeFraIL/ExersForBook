@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/volumeIndicator"
+        android:layout_width="0dp"
+        android:layout_height="4dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:background="#00FF00" />
+
+    <zeev.fraiman.exersforbook.VolumeKnobView
+        android:id="@+id/volumeKnob"
+        android:layout_width="200dp"
+        android:layout_height="200dp"/>
+
+    <TextView
+        android:id="@+id/volumeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Volume=0"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="20dp" />
+</LinearLayout>

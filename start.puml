@@ -1,0 +1,15 @@
+@startuml
+class zeev.fraiman.exersforbook.Start {
+~ Context context
+~ Button bTV
++ {static} TextToSpeech totalTTS
+~ Locale my_lang
+# void onCreate(Bundle)
+- void initCompomemts()
+}
+
+
+
+
+androidx.appcompat.app.AppCompatActivity <|-- zeev.fraiman.exersforbook.Start
+@enduml

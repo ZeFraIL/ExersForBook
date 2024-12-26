@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="30dp"
+    tools:context=".Start">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/bTV"
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:padding="10sp"
+                android:layout_marginBottom="40dp"
+                android:text="TextView" />
+
+            <Button
+                android:id="@+id/bTTS1"
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:padding="10sp"
+                android:layout_marginBottom="40dp"
+                android:text="TTS_1" />
+
+            <Button
+                android:id="@+id/bTTS2"
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:padding="10sp"
+                android:layout_marginBottom="40dp"
+                android:text="TTS_2" />
+
+            <Button
+                android:id="@+id/bTTS3"
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:padding="10sp"
+                android:layout_marginBottom="40dp"
+                android:text="TTS_3" />
+
+            <Button
+                android:id="@+id/bTTS4"
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:padding="10sp"
+                android:layout_marginBottom="40dp"
+                android:text="TTS_4" />
+
+            <Button
+                android:id="@+id/bTTS5"
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:padding="10sp"
+                android:layout_marginBottom="40dp"
+                android:text="TTS_5" />
+
+            <Button
+                android:id="@+id/bSTT"
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:padding="10sp"
+                android:layout_marginBottom="40dp"
+                android:text="STT numbers" />
+
+            <Button
+                android:id="@+id/bVK"
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:padding="10sp"
+                android:layout_marginBottom="40dp"
+                android:text="Volume knob" />
+
+            <Button
+                android:id="@+id/bFW"
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:padding="10sp"
+                android:layout_marginBottom="40dp"
+                android:text="Fireworks" />
+
+            <Button
+                android:id="@+id/bFP"
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:padding="10sp"
+                android:layout_marginBottom="40dp"
+                android:text="Fly pengion" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>
